@@ -4,10 +4,10 @@
 
 First release:
 
-* Workshop Superhero Card - <Comment>
+* Workshop Superhero Card
 
 ## Version 1.0.0(2) (2023-08-03)
 
-* Removed View extentions - <Comment>
-* Snapshot now uses Image Renderer - <Comment>
-* ShareButton now uses ShareLink - <Comment>
+* Removed View extensions
+* Snapshot now uses Image Renderer
+* ShareButton now uses ShareLink
