@@ -16,7 +16,6 @@ struct Superhero_CardApp: App {
                 SuperheroCardView()
                 Spacer()
                 ShareLink(item: SuperheroCardView().snapshot(), preview: SharePreview("My Superhero Card", image: SuperheroCardView().snapshot()))
-                    .buttonStyle(.bordered)
                 Spacer()
             }
         }

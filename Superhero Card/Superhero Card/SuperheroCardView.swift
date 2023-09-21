@@ -22,7 +22,7 @@ struct SuperheroCardView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .cornerRadius(40)
-                .frame(width: 300, height: 300)
+                .frame(width: 240, height: 240)
                 .padding(.horizontal, 40)
             Text("Name Surname")
                 .font(.title)
