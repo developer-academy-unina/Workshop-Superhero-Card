@@ -14,8 +14,14 @@ struct Superhero_CardApp: App {
         WindowGroup {
             VStack {
                 SuperheroCardView()
+                
                 Spacer()
-                ShareLink(item: SuperheroCardView().snapshot(), preview: SharePreview("My Superhero Card", image: SuperheroCardView().snapshot()))
+                
+                ShareLink(
+                    item: SuperheroCardView().snapshot(),
+                    preview: SharePreview("My Superhero Card", image: SuperheroCardView().snapshot())
+                )
+                
                 Spacer()
             }
         }
@@ -23,9 +29,11 @@ struct Superhero_CardApp: App {
 }
 
 extension View {
+    
     @MainActor
     func snapshot() -> Image {
         let renderer = ImageRenderer(content: self)
         return Image(uiImage: renderer.uiImage!)
     }
+    
 }
