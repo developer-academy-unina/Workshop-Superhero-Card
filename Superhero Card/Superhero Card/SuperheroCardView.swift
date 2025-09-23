@@ -4,6 +4,7 @@
 //
 //  Created by Pasquale Vittoriosi on 08/09/22.
 //  Updated by Tiago Pereira on 17/10/24.
+//  App Icon by Flora Damiano.
 //
 
 import SwiftUI
@@ -12,11 +13,10 @@ struct SuperheroCardView: View {
     
     var body: some View {
         
-        /**
+        /*
          Select the components here or directly from the canvas
          and edit the properties from the inspector panel on the right
          */
-        
         VStack {
             Text("Superhero Name")
                 .font(.largeTitle)
@@ -24,7 +24,7 @@ struct SuperheroCardView: View {
                 .foregroundStyle(.white)
                 .padding(.top, 30.0)
             
-            /**
+            /*
              Change the name of the image here.
              Remember to put the image in the *Assets* folder in the Project navigator panel on the left
              */
@@ -45,7 +45,7 @@ struct SuperheroCardView: View {
                 .font(.title3)
                 .fontWeight(.bold)
                 .foregroundStyle(.white)
-            Text("Power 1, Power 2, Power 3, ..")
+            Text("Power 1, Power 2, Power 3, ...")
                 .foregroundStyle(.white)
                 .padding(.horizontal)
             

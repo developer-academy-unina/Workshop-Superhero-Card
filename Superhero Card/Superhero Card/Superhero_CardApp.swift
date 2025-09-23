@@ -21,6 +21,8 @@ struct Superhero_CardApp: App {
                     item: SuperheroCardView().snapshot(),
                     preview: SharePreview("My Superhero Card", image: SuperheroCardView().snapshot())
                 )
+                .buttonStyle(.borderedProminent)
+                .controlSize(.large)
                 
                 Spacer()
             }
