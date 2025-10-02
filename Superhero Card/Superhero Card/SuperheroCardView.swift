@@ -14,9 +14,9 @@ struct SuperheroCardView: View {
     var body: some View {
         
         /*
-         Select the components here or directly from the canvas
-         and edit the properties from the inspector panel on the right
-         */
+         Edit the SwiftUI components in the code below.
+         Change their properties and modifiers (e.g. .foregroundColor()) to adjust them.
+        */
         VStack {
             Text("Superhero Name")
                 .font(.largeTitle)
@@ -27,7 +27,7 @@ struct SuperheroCardView: View {
             /*
              Change the name of the image here.
              Remember to put the image in the *Assets* folder in the Project navigator panel on the left
-             */
+            */
             Image("Placeholder")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
@@ -65,7 +65,10 @@ struct SuperheroCardView: View {
                 .foregroundStyle(.white)
                 .padding([.horizontal, .bottom], 30.0)
         }
-        
+        /*
+         For custom colors, use the *Color Set* from the *Assets* folder
+         in the Project navigator on the left.
+        */
         .background {
             RoundedRectangle(cornerRadius: 40)
                 .foregroundStyle(.gray)
